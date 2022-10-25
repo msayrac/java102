@@ -38,12 +38,23 @@ public class Calisan {
         System.out.println(this.adSoyad + " üniversiteye giris yapti !!");
     }
 
+
+
+
+
+
     public void cikis() {
         System.out.println(this.adSoyad + " üniversiteden cikis yapti !!");
     }
 
     public void yemekhane(){
         System.out.println(this.adSoyad + " yemekhaneye girdi !!");
+    }
+
+    public static void girisYapanlar(Calisan[] loginUser){
+        for(Calisan c: loginUser){
+            c.giris();
+        }
     }
 
 }

@@ -11,15 +11,15 @@ public class Patika {
 
         OgretimGorevlisi o1 = new OgretimGorevlisi("Ayse","2345","o@o","CENG","DOCENT","110");
 
-        Asistan as1 = new Asistan("Mahmut","1234","QQQ","MAt","dr","4-8");
+       Calisan a2 = new Akademisyen("Mustafa Cetindag", "234567898765","info@info.com","sdfdf","prof");
 
-        LabAsistani l1 = new LabAsistani("asistan ahmet ","2345","posta","mat","asistan","8-5");
 
-        BilgiIslem b1 = new BilgiIslem("bilgi Mehmet","23456","qwert","bilgisayar","8-5","bilgisayar");
 
-        GuvenlikGorevlisi g1 = new GuvenlikGorevlisi("Guvenlik memo","234","2ewre","guvenlik","8-6","guvenlik belgesi sagladi ");
+        Calisan[] loginUser = {c1,a1,m1,o1};
 
-        g1.nobet();
+        Calisan.girisYapanlar(loginUser);
+
+
 
 
 
